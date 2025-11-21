@@ -1,4 +1,4 @@
-public class Pasajero {
+public class Pasajero{
 
     private int id;
     private int prioridad;
@@ -12,16 +12,8 @@ public class Pasajero {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public int getPrioridad() {
         return prioridad;
-    }
-
-    public void setPrioridad(int prioridad) {
-        this.prioridad = prioridad;
     }
 
     @Override
