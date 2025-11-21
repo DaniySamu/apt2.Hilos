@@ -45,7 +45,7 @@ public class Rescate implements Runnable{
                     System.out.println(nombreBalsa + " regresa en " + balsa.getTiempoRescate() + "s...");
                     Thread.sleep(tiempoEsperaMs);
                 } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt();
+                    System.out.println(e.getStackTrace());
                 }
                 balsa.vaciar();
             }
